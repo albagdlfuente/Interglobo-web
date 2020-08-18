@@ -1,2 +1,2 @@
 # Interglobo-web
-Empresa de eventos y distribuidor de mascarillas y geles desinfectantes
+Empresa de eventos, distribuidor de mascarillas y geles desinfectantes
