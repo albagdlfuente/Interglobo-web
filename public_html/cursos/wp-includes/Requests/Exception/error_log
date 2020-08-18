@@ -1,0 +1,6 @@
+[29-Aug-2018 14:44:55 Europe/Madrid] PHP Fatal error:  Class 'Requests_Exception' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Exception/Transport.php on line 3
+[29-Aug-2018 14:45:05 Europe/Madrid] PHP Fatal error:  Class 'Requests_Exception' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Exception/HTTP.php on line 13
+[29-Aug-2018 16:25:55 Europe/Madrid] PHP Fatal error:  Class 'Requests_Exception' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Exception/HTTP.php on line 13
+[29-Aug-2018 16:26:09 Europe/Madrid] PHP Fatal error:  Class 'Requests_Exception' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Exception/Transport.php on line 3
+[24-Apr-2020 09:59:39 Europe/Madrid] PHP Fatal error:  Class 'Requests_Exception' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Exception/Transport.php on line 3
+[27-Apr-2020 06:54:52 Europe/Madrid] PHP Fatal error:  Class 'Requests_Exception' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Exception/HTTP.php on line 13

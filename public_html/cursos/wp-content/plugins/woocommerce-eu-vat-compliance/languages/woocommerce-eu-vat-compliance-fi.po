@@ -1,0 +1,1740 @@
+# Translation of WooCommerce EU VAT Compliance in Finnish
+# This file is distributed under the same license as the WooCommerce EU VAT Compliance package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-10-27 22:48:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.2.0\n"
+"Language: fi\n"
+"Project-Id-Version: WooCommerce EU VAT Compliance\n"
+
+#: rates.php:230
+msgid "Adding tax rates..."
+msgstr ""
+
+#: rates.php:219
+msgid "The description that will be used when using the button for mass adding/updating of EU rates"
+msgstr ""
+
+#: rates.php:219
+msgid "Description:"
+msgstr ""
+
+#: control-centre.php:1050
+msgid "Error"
+msgstr ""
+
+#: control-centre.php:1049
+msgid "Loading..."
+msgstr ""
+
+#: control-centre.php:805
+msgid "You have unsaved settings."
+msgstr ""
+
+#: control-centre.php:235
+msgid "The main use of this button is for debugging purposes - it allows a third party who does not have access to your WP dashboard to easily see/analyse/reproduce your settings."
+msgstr ""
+
+#: control-centre.php:229 control-centre.php:232
+msgid "Export settings"
+msgstr ""
+
+#: premium.php:309
+msgid "Payment method"
+msgstr ""
+
+#: readiness-tests.php:254
+msgid "You have countries that are either your base country or equivalent (%s) with no tax rate set in any tax rate table; but, perhaps this was intentional."
+msgstr ""
+
+#: readiness-tests.php:247
+msgid "Less countries (%d) had at least one tax table in which a current VAT rate entry was found than expected (%d)."
+msgstr ""
+
+#: readiness-tests.php:242
+msgid "All countries had at least one tax table in which a current VAT rate entry was found, with the exception of base or equivalent countries."
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/github-checker.php:119
+msgid "There is no changelog available."
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php:824
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php:822
+msgid "A new version of this plugin is available."
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php:820
+msgid "This plugin is up to date."
+msgstr ""
+
+#: vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php:776
+msgid "Check for updates"
+msgstr ""
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:565
+msgid "Automatically update as soon as an update becomes available (N.B. other plugins can over-ride this setting)."
+msgstr ""
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:464
+msgid "When updates to this plugin are available, they will not be automatically installed."
+msgstr ""
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:462
+msgid "When updates to this plugin are available, they will be automatically installed."
+msgstr ""
+
+#: reports.php:1448 reports.php:1465
+msgid "VAT-able supplies"
+msgstr ""
+
+#: reports.php:1446 reports.php:1463
+msgid "Items (pre-VAT)"
+msgstr ""
+
+#: reports.php:1047
+msgid "The selected time period contains orders originally placed under WooCommerce 2.1 or earlier, or which for some other reason are missing tax data (e.g. they were created in a wrong manner by an extension)."
+msgstr ""
+
+#: reports.php:799
+msgid "Custom"
+msgstr ""
+
+#: reports.php:658
+msgid "The \"VAT-able supplies\" column may (depending on various complexities relating to how WooCommerce handles refunds) be a calculated column, derived by dividing the \"Total VAT\" column by the VAT rate."
+msgstr ""
+
+#: reports.php:654
+msgid "here"
+msgstr ""
+
+#: reports.php:654
+msgid "The \"Items (pre-VAT)\" column (which is hidden until you press %s) indicates the total of items found in the order, and does not take account of whether any of those items were refunded (this is related to the fact that in WooCommerce, refunds can be made that are against the order and not against any particular items). As such, it is not necessarily equal to the total amount that VAT is liable on."
+msgstr ""
+
+#: vat-number.php:1329
+msgid "Fault code: %s"
+msgstr ""
+
+#: vat-number.php:1326
+msgid "The member state's VIES service is currently unavailable."
+msgstr ""
+
+#: vat-number.php:1323
+msgid "The VIES service is currently unavailable."
+msgstr ""
+
+#: vat-number.php:1320
+msgid "The VIES server was too busy."
+msgstr ""
+
+#: vat-number.php:1152
+msgid "Because of restrictions related to EU VAT law, we cannot process your order, because your entered address is from a different country than that detected from your Internet access (IP) address."
+msgstr ""
+
+#: vat-number.php:1131
+msgid "This store requires all extra-territorial orders to be accompanied by a valid EU VAT number"
+msgstr ""
+
+#: vat-number.php:576
+msgid "Because of EU VAT requirements, you will not be able to check-out until you enter a taxable address from the same country as was detected for your Internet access (IP) address."
+msgstr ""
+
+#: vat-number.php:264
+msgid "Reject the VAT number (this places you at risk of losing orders, but prevents you from accepting invalid VAT numbers)"
+msgstr ""
+
+#: vat-number.php:263
+msgid "Assume that the entered number is valid (this places you at risk of accepting invalid VAT numbers, but will prevent loss of orders when VIES is down)"
+msgstr ""
+
+#: vat-number.php:259
+msgid "This option determines what will happen if a customer enters a VAT number, but the EU VIES validity-checking service cannot be reached. (Note that positive look-ups are cached for a week, so repeat customer orders within that time can always go through, even if VIES is down)."
+msgstr ""
+
+#: vat-number.php:258
+msgid "When VIES is unreachable"
+msgstr ""
+
+#: vat-number.php:252
+msgid "Forbid checkout entirely (this requires that would-be customers who either enter an EU address or have an IP address that resolves to the EU must have both pieces of data in agreement, or be forbidden to purchase any relevant goods)"
+msgstr ""
+
+#: vat-number.php:238
+msgid "Since French VAT numbers can begin with two letters, if your VAT number is French then you should include the country code (FR) to avoid ambiguity."
+msgstr ""
+
+#: vat-number.php:199
+msgid "Require outside of base country: EU customers from outside the store's base country without a valid EU VAT number will not be permitted to check out on any order."
+msgstr ""
+
+#: vat-number.php:134
+msgid "EU VAT Number"
+msgstr ""
+
+#: readiness-tests.php:307 readiness-tests.php:312
+msgid "Error:"
+msgstr "Virhe:"
+
+#: readiness-tests.php:304
+msgid "The store VAT ID (%s) could not be confirmed as valid, so VAT number validity checks will fail."
+msgstr ""
+
+#: control-centre.php:990
+msgid "To automatically run these tests daily, and notify yourself of any failed tests by email, use our Premium version."
+msgstr "Voit ajaa nämä testit päivittäin automaattisesti, ja saat ilmoituksen epäonnistumisista sähköpostilla kun käytät maksullista Premium versiota."
+
+#: control-centre.php:269
+msgid "Failed EU VAT compliance readiness tests on "
+msgstr "Ei läpäissyt, valmius EU arvoinlisäverosääntöjen noudattamiseen"
+
+#: control-centre.php:255
+msgid "The following readiness tests failed; for more information, or to change your configuration visit the EU VAT Compliance control centre in your WP dashboard."
+msgstr "Seuraavat toimintakuntotestit epäonnistuivat; lisätietoja löytyy, tai jos haluat muuttaa asetuksia, EU VAT Compliance hallintapaneelista joka on WordPress hallintapaneelissa. "
+
+#: premium.php:620
+msgid "Invoice Number"
+msgstr "Laskun numero"
+
+#: premium.php:47
+msgid "Save Test Settings"
+msgstr "Tallenna testin asetukset"
+
+#: premium.php:46
+msgid "Notify email addresses of failing tests:"
+msgstr "Sähköpostiosoitteet joihin tiedot testissä epäonnistumisista lähetetään:"
+
+#: premium.php:45
+msgid "If you enter any email addresses here (separate addresses by commas), then all the selected items in the readiness report will be checked daily, and you will be emailed with results of any failing tests."
+msgstr "Jos kirjoitat tähän pilkulla erotettuja sähköpostiosoitteita, silloin kaikki toimintakunto raportissa valitut kohteet tarkastetaan päivittäin ja tiedot testin epäonnistumisista lähetetään sähköpostilla."
+
+#: record-order-country.php:363
+msgid "Trader name:"
+msgstr "Myyjän nimi:"
+
+#: record-order-country.php:360
+msgid "Trader address:"
+msgstr "Myyjän osoite:"
+
+#: record-order-country.php:358
+msgid "Request ID:"
+msgstr "Pyydä ID:"
+
+#: record-order-country.php:357
+msgid "Validated at:"
+msgstr "Vahvistettu:"
+
+#: record-order-country.php:356
+msgid "VIES extended information:"
+msgstr "Alv.-tietojen vaihtojärjestelmästä (VIES) laajennetut tiedot:"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:544
+msgid "You are connected to receive updates for %s (login: %s)"
+msgstr "Yhteys on muodostettu ja voit saada %s päivityksiä (kirjautuminen: %s)"
+
+#: readiness-tests.php:348
+msgid "RightPress Subscriptio"
+msgstr "RightPress Subscriptio -laajennus"
+
+#: readiness-tests.php:300
+msgid "The store VAT ID (%s) is valid, so extended VAT checks are possible."
+msgstr "Kaupan alv./VAT ID (%s) on kelvollinen, joten laajennettu alv./VAT numeron tarkastukset ovat mahdollisia."
+
+#: readiness-tests.php:280
+msgid "The extended VAT check is not enabled (you have not entered your VAT number)"
+msgstr "Laajennettu alv./VAT tarkastus ei ole käytössä (koska et ole kirjoittanut omaa alv./VAT numeroa)"
+
+#: readiness-tests.php:33
+msgid "Support for the RightPress Subscriptio extension"
+msgstr "Tuki RightPress Subscriptio -laajennukselle"
+
+#: readiness-tests.php:24
+msgid "Extended VAT Check"
+msgstr "Laajennettu alv./VAT tarkastus"
+
+#: vat-number.php:238
+msgid "If you enter your VAT Number without a country-code, then the shop's base country will be assumed."
+msgstr "Jos kirjoitat alv./VAT numeron ilman maatunnusta, silloin oletetaan sen olevan sama kuin kaupan sijaintimaa."
+
+#: vat-number.php:238
+msgid "This is the only use currently made of this number."
+msgstr "Tätä numeroa käytetään tällä hetkellä vain tähän tarkoitukseen."
+
+#: vat-number.php:238
+msgid "If you enter your own VAT number, then an extended VAT lookup will be performed when validating customer VAT numbers. (The EU's look-up system requires your number in order to do this)."
+msgstr "Jos kirjoitat oman alv./VAT numerosi, silloin tehdään laajempi alv./VAT tarkastus asiakkaan numeroa tarkistettaessa. (EU:n tarkastusjärjestelmä edellyttää omaa numeroa)."
+
+#: vat-number.php:237
+msgid "Your VAT number"
+msgstr "Alv./VAT numero"
+
+#: vat-number.php:191
+msgid "VAT number entry at check-out"
+msgstr "Alv./VAT numeron kirjoittaminen kassalla"
+
+#: vat-number.php:135
+msgid "Any EU VAT number entered by the customer at the check-out"
+msgstr ""
+
+#: reports.php:829
+msgid "Export CSV (this table)"
+msgstr "Vie pilkuilla erotettu tiedosto CSV (tämä taulukko)"
+
+#: reports.php:802
+msgid "Q%d %d"
+msgstr "Q%d %d"
+
+#: premium.php:172
+msgid "Export CSV (detailed)"
+msgstr "Vie (yksityiskohtainen) pilkuilla erotettu tiedosto CSV "
+
+#: record-order-country.php:333
+msgid "Grand total"
+msgstr "Loppusumma"
+
+#: record-order-country.php:331
+msgid "Refund total"
+msgstr "Hyvitykset yhteensä"
+
+#: record-order-country.php:330
+msgid "Net total"
+msgstr "Yhteensä, netto"
+
+#: record-order-country.php:310
+msgid "Total (including refunds)"
+msgstr "Yhteensä (hyvitykset mukaan lukien)"
+
+#: record-order-country.php:303
+msgid "Shipping refunded"
+msgstr "Hyvitetty toimitusmaksu"
+
+#: record-order-country.php:297
+msgid "Items refunded"
+msgstr "Hyvitetyt tuotteet"
+
+#: control-centre.php:491
+msgid "link"
+msgstr "linkki"
+
+#: control-centre.php:491
+msgid "All invoicing features are in conjunction with the free WooCommerce PDF invoices and packing slips plugin."
+msgstr "Kaikki laskutusominaisuudet ovat yhtenevät maksuttoman WooCommerce PDF laskut ja lähetyslistat -lisäosan kanssa (PDF Invoices and Packing Slips)"
+
+#: control-centre.php:486
+msgid "Personal support"
+msgstr "Henkilökohtainen tuki"
+
+#: control-centre.php:481
+msgid "Helps to fund continued development"
+msgstr "Auttaa rahoittamaan kehitystyön jatkumista"
+
+#: control-centre.php:476
+msgid "Support for the official WooCommerce subscriptions extension"
+msgstr "Tukee virallista WooCommerce tilaukset -lisäosaa (Subscriptions)"
+
+#: control-centre.php:471
+msgid "Show VAT in multiple currencies upon invoices"
+msgstr "Näytä laskuissa alv./VAT useassa valuutassa"
+
+#: control-centre.php:466
+msgid "Optionally resolve location conflicts via self-certification"
+msgstr "Valinnaisesti selvitä sijannin epäselvyydet Oma-vahvistuksella"
+
+#: control-centre.php:461
+msgid "CSV (i.e. spreadsheet) download of comprehensive information on all orders"
+msgstr "Lataa CSV (pilkulla erotettu, taulukko) muodossa täydet tiedot kaikista tilauksista"
+
+#: control-centre.php:456
+msgid "Option to allow B2B sales only"
+msgstr "Valinta: salli vain yritysten välinen B2B myynti"
+
+#: control-centre.php:451
+msgid "Add B2B VAT numbers to invoices"
+msgstr "Lisää B2B alv./VAT numerot laskuihin"
+
+#: control-centre.php:446
+msgid "Exempt business customers (i.e. B2B) from VAT"
+msgstr "Vapauta yritysasiakkaat (eli B2B) arvonlisäverosta/VAT"
+
+#: control-centre.php:441
+msgid "Refund support"
+msgstr "Tuki hyvitykselle"
+
+#: control-centre.php:436
+msgid "Extra text on invoices (e.g. VAT notices for business customers)"
+msgstr "Lisäteksti laskuihin (esim. yritysasiakkaiden alv./VAT laskuihin)"
+
+#: control-centre.php:431
+msgid "Mixed shops (i.e. handle non-digital goods also)"
+msgstr "Kaupassa myydään myös fyysisiä tuotteita (ei digitaalisia tuotteita)"
+
+#: control-centre.php:426
+msgid "Central control panel"
+msgstr "Hallintapaneeli"
+
+#: control-centre.php:421
+msgid "Option to forbid EU sales if VAT is chargeable"
+msgstr "Valinta: estä myynti EU maihin jos alv./VAT on veloitettava"
+
+#: control-centre.php:416
+msgid "Advanced dashboard reports"
+msgstr "Edistyneet raportit hallintapaneelissa"
+
+#: control-centre.php:411
+msgid "Quick entering of each country's VAT rates"
+msgstr "Nopea tapa kirjoittaa kunkin maan alv. prosentti"
+
+#: control-centre.php:406
+msgid "Live exchange rates"
+msgstr "Tosiaikaiset valuuttakurssit"
+
+#: control-centre.php:401
+msgid "Currency conversions into reporting currency"
+msgstr "Valuuttamuunnokset ilmoitusvaluuttaan"
+
+#: control-centre.php:396
+msgid "Display prices including correct geographical VAT from the first page"
+msgstr "Näytä hinnat ensimmäiseltä sivulta, mukaan lukien oikea paikallinen arvonlisävero/VAT"
+
+#: control-centre.php:391
+msgid "Evidence is recorded in detail, ready for audit"
+msgstr "Yksityiskohtaiset todisteet on tallennettu, valmiiksi tarkastukseen"
+
+#: control-centre.php:386
+msgid "Identify your customers' locations"
+msgstr "Tunnista asiakkaidesi sijainnit"
+
+#: control-centre.php:382
+msgid "Follow this link"
+msgstr "Tästä linkistä"
+
+#: control-centre.php:379
+msgid "Get it from"
+msgstr "Saat sen täältä"
+
+#: control-centre.php:375
+msgid "Free version"
+msgstr "Maksuton versio"
+
+#: control-centre.php:367
+msgid "A premium version of this plugin is available at this link."
+msgstr "Lisäosan maksullinen Premium-versio on saatavissa tästä linkistä."
+
+#: control-centre.php:367
+msgid "You are currently using the free version of WooCommerce EU VAT Compliance from wordpress.org."
+msgstr "Käytössä on maksuton versio WooCommerce EU VAT Compliance -lisäosasta sivustolta wordpress.org."
+
+#: control-centre.php:359 control-centre.php:376
+msgid "Premium version"
+msgstr "Maksullinen Premium-versio"
+
+#: reports.php:1470
+msgid "N.B. This column shows (only) amounts that were refunded using WooCommerce's refunds feature - whether the WooCommerce order status is 'refunded' or not, and independently of whether the order that the refund corresponds to is within the same date range."
+msgstr "Huom. Tässä sarakkeessa näkyy vain summat jotka on hyvitetty käyttäen WooCommercen hyvitysominaisuutta - riippumatta siitä, onko WooCommerce tilauksen tila Hyvitetty vai ei ja riippumatta siitä, onko hyvitetty kohde saman ajanjakson sisällä."
+
+#: reports.php:1453 reports.php:1470
+msgid "VAT refunded"
+msgstr "Alv./VAT hyvitetty"
+
+#: reports.php:1453
+msgid "N.B. This column shows (only) amounts that were refunded using WooCommerce's refunds feature within the chosen date range - whether the WooCommerce order status is 'refunded' or not, and independently of whether the order that the refund corresponds to is within the same date range."
+msgstr "Huom. Tässä sarakkeessa näkyy vain summat jotka on hyvitetty käyttäen WooCommercen hyvitysominaisuutta valitun ajanjakson sisällä - riippumatta siitä, onko WooCommerce tilauksen tila Hyvitetty vai ei ja riippumatta siitä, onko hyvitetty kohde saman ajanjakson sisällä."
+
+#: reports.php:1451 reports.php:1468
+msgid "VAT (shipping)"
+msgstr "Alv./VAT (toimitus)"
+
+#: reports.php:1450 reports.php:1467
+msgid "VAT (items)"
+msgstr "Alv./VAT (tuotteet)"
+
+#: reports.php:652
+msgid "If you want to download data that includes refunds made at any time, then the best option is to choose a date range up until the current time, download the data by CSV, and perform spreadsheet calculations on the rows whose order date matches the period you are interested in."
+msgstr "Jos haluat ladata kaikki (milloin tahansa tehdyt) hyvitykset, silloin on parasta valita ajanjakso ulottumaan nykyiseen päivään, ladata aineisto pilkulla erotettuna CSV-tiedostona ja suorittaa taulukkolaskentaohjelmassa yhteenlasku niiltä riveiltä joissa tilauspäivämäärä on tarkastelemasi ajanjakson sisällä."
+
+#: reports.php:652
+msgid "i.e. This is a true VAT report for the chosen period."
+msgstr "Tämä on todellinen alv./VAT raportti valitulta ajanjaksolta."
+
+#: reports.php:652
+msgid "Note that the refund column only includes refunds made within the chosen date range."
+msgstr "Huomaa, että hyvitysten sarakkeessa näkyy hyvitykset vain valitulta ajanjaksolta."
+
+#: reports.php:652
+msgid "These can be complete or partial refunds, and are separate to whether or not you have marked the order status as \"refunded\""
+msgstr "Nämä voivat olla osittaisia- tai täysiä hyvityksiä, ja niissä ei huomioida että oletko merkinnyt tilauksen tilaksi \"hyvitetty\" vai et."
+
+#: reports.php:652
+msgid "more information"
+msgstr "enemmän tietoja"
+
+#: reports.php:652
+msgid "The refund column in the table and CSV download is calculated from WooCommerce refunds."
+msgstr "Taulukon hyvityssarake ja pilkuilla erotetussa CSV-tiedostossa on laskettu WooCommerce hyvityksistä."
+
+#: premium.php:346
+msgid "VAT refunded (total, reporting currency)"
+msgstr "Yhteensä alv./VAT hyvitetty (ilmoitusvaluutta)"
+
+#: premium.php:342
+msgid "VAT refunded (total, order currency)"
+msgstr "Yhteensä alv./VAT hyvitetty (tilausksen valuutta)"
+
+#: premium.php:325 premium.php:331 premium.php:337
+msgid "VAT refunded (%s, reporting currency)"
+msgstr "Alv./VAT hyvitetty (%s, ilmoitusvaluutta)"
+
+#: premium.php:324 premium.php:330 premium.php:336
+msgid "VAT refunded (%s, order currency)"
+msgstr "Alv./VAT hyvitetty (%s, tilausksen valuutta)"
+
+#: premium.php:164
+msgid "Download all orders with VAT data (from the displayed date range) in CSV format"
+msgstr "Lataa kaikki tilaukset joissa on alv./VAT tieto (näytetyltä ajanjaksolta), pilkulla erotettuna eli CSV muotoisena"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:555
+msgid "Password"
+msgstr "Salasana"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:554
+msgid "Email"
+msgstr "Sähköpostiosoite"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:551
+msgid "Please enter your customer login to access updates for %s"
+msgstr "Kirjoita kirjautumistietosi jotta pääset %s päivityksiin"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:495
+msgid "You have successfully disconnected access to updates to this plugin."
+msgstr "Yhteys lisäosan päivityksiin katkaistiin."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:491
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:547
+msgid "Disconnect"
+msgstr "Katkaise yhteys"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:489
+msgid "Disconnecting..."
+msgstr "Katkaistaan yhteyttä ..."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:422
+msgid "Has your licence expired, or have you used all your available licences elsewhere?"
+msgstr "Onko lisenssi mennyt umpeen vai oletko käyttänyt kaikki saatavilla olleet lisenssit muualla?"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:422
+msgid "Your login was accepted, but no available entitlement for this plugin was found."
+msgstr "Kirjautuminen hyväksyttiin, mutta ei löytynyt saatavilla olevaa oikeutusta lisäosalle."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:419
+msgid "You have successfully connected for access to updates to this plugin."
+msgstr "Yhteys on luotu ja nyt on pääsy tämän lisäosan päivityksiin."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:415
+msgid "Your email address and password were not recognised."
+msgstr "Sähköpostiosoitetta ja salasanaa ei tunnistettu."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:409
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:426
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:431
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:467
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:472
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:498
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:503
+msgid "The response from the remote site could not be decoded. (More information is recorded in the browser console)."
+msgstr "Ulkopuolisen sivuston vastausta ei voitu tulkita. (Enemmän tietoja on tallennettu selaimen konsoliin.)"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:403
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:556
+msgid "Connect"
+msgstr "Yhdistä"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:401
+msgid "Connecting..."
+msgstr "Yhdistetään..."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:389
+msgid "You need to enter both an email address and a password"
+msgstr "Kirjoita sekä sähköpostiosoite että salasana"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:354
+msgid "Access to plugin updates (%s)"
+msgstr "Pääsy lisäosan päivityksiin (%s)"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:297
+msgid "To maintain your access to support, please renew."
+msgstr "Jotta säilytät pääsyn tukeen, uusi tilaus ole hyvä."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:297
+msgid "Your paid access to %s support will soon expire."
+msgstr "Pääsy maksettuun %s tukeen umpeutuu lähiaikoina."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:295
+msgid "To regain your access, please renew."
+msgstr "Jos haluat pääsyn uudelleen, uusi tilaus ole hyvä."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:295
+msgid "Your paid access to %s support has expired."
+msgstr "Pääsy maksettuun %s tukeen on umpeutunut."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:291
+msgid "Your paid access to %s updates for this site will soon expire."
+msgstr "Tähän sivustoon %s liittyvä maksettu päivitysten saatavuus umpeutuu lähiaikoina."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:289
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:291
+msgid "To retain your access, and maintain access to updates (including future features and compatibility with future WordPress releases) and support, please renew."
+msgstr "Jotta säilytät pääsyn ja saat keskeytyksettä päivitykset (mukaan lukien tulevat ominaisuudet ja yhteensopivuus tulevien WordPress julkaisujen kanssa) ja tuen - uusi tilaus, ole hyvä."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:289
+msgid "Your paid access to %s updates for %s of the %s add-ons on this site will soon expire."
+msgstr "Tähän sivustoon %s liittyvä maksettu lisäosan %s %s päivityksen saatavuus umpeutuu lähiaikoina."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:285
+msgid "Your paid access to %s updates for %s add-ons on this site has expired."
+msgstr "Tähän sivustoon %s liittyvä maksettu lisäosien %s päivitysten saatavuus ei ole enää voimassa."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:283
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:285
+msgid "To regain access to updates (including future features and compatibility with future WordPress releases) and support, please renew."
+msgstr "Jotta saat uudelleen päivitykset (mukaan lukien tulevat ominaisuudet ja yhteensopivuus tulevien WordPress julkaisujen kanssa) - uusi tilaus, ole hyvä."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:283
+msgid "Your paid access to %s updates for this site has expired. You will no longer receive updates."
+msgstr "Tähän sivustoon liittyvä maksettu päivitysten saatavuus %s ei ole enää voimassa. Et saa enää päivityksiä."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:275
+msgid "You should update to make sure that you have a version that has been tested for compatibility."
+msgstr "Ohjelma pitäisi päivittää jotta se olisi testattu yhteensopivaksi."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:275
+msgid "It has been tested up to version %s."
+msgstr "Se on testattu versioon %s asti."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:275
+msgid "The installed version of %s has not been tested on your version of WordPress (%s)."
+msgstr "Asennettua versiota %s ei ole testattu käyttämäsi WordPress-ohjelman version kanssa (%s)."
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:275
+msgid "Warning"
+msgstr "Varoitus"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:245
+msgid "Dismiss from main dashboard (for %s weeks)"
+msgstr "Poista hallintapaneelista (%s viikoksi)"
+
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:147
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:150
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:195
+#: vendor/davidanderson684/simba-plugin-manager-updater/class-udm-updater.php:198
+msgid "Errors occurred:"
+msgstr "Virheitä ilmeni:"
+
+#: reports.php:1047
+msgid "Show"
+msgstr "Näytä"
+
+#: reports.php:1047
+msgid "These WooCommerce versions did not record the data used to display the \"Items\" column, which is therefore incomplete and has been hidden."
+msgstr "Nämä WooCommercen versiot eivät tallentaneet tietoja jotka näytetään \"Tuotteet\" sarakkeessa joka on sen takia epätäydellinen ja sen seurauksena sarake on piilotettu."
+
+#: reports.php:1047
+msgid "Note:"
+msgstr "Huomautus:"
+
+#: bootstrap.php:831
+msgid "Follow this link to get it"
+msgstr "Saat sen tästä linkistä"
+
+#: reports.php:1455 reports.php:1472
+msgid "Total VAT"
+msgstr "Alv./VAT yhteensä"
+
+#: reports.php:1449 reports.php:1466
+msgid "VAT rate"
+msgstr "Alv./VAT %"
+
+#: reports.php:1131
+msgid "fixed"
+msgstr "kiinteä"
+
+#: reports.php:1131
+msgid "Fixed - i.e., traditional non-variable VAT"
+msgstr "Kiinteä - ts. perinteinen kiinteä arvonlisävero"
+
+#: reports.php:707
+msgid "Include statuses (updates instantly):"
+msgstr "Sisällytä tilat (päivittyy välittömästi):"
+
+#: premium.php:355
+msgid "IP address country detected via"
+msgstr "Valtio pääteltiin IP numerosta käyttäen"
+
+#: premium.php:354
+msgid "IP address country  (ISO-3166-1)"
+msgstr "Valtio IP numeron perusteella (ISO-3166-1)"
+
+#: premium.php:353
+msgid "IP address country"
+msgstr "Valtio IP numeron perusteella"
+
+#: premium.php:352
+msgid "IP address"
+msgstr "IP numero"
+
+#: premium.php:351
+msgid "Country used to calculate VAT (ISO-3166-1)"
+msgstr "Maa jota käytetään alv./VAT laskemisessa (ISO-3166-1)"
+
+#: premium.php:350
+msgid "Country used to calculate VAT (name)"
+msgstr "Maa jota käytetään alv./VAT laskemisessa (nimi)"
+
+#: premium.php:349
+msgid "VAT number validated"
+msgstr "Alv./VAT tunnus vahvistettu"
+
+#: premium.php:348
+msgid "VAT number valid"
+msgstr "Alv./VAT tunnus kelpaa"
+
+#: premium.php:347
+msgid "VAT number"
+msgstr "Alv./VAT tunnus"
+
+#: premium.php:345
+msgid "VAT paid (shipping, reporting currency)"
+msgstr "Alv./VAT maksettu (toimitus, ilmoitusvaluutta)"
+
+#: premium.php:344
+msgid "VAT paid (items, reporting currency)"
+msgstr "Alv./VAT maksettu (tuotteet, ilmoitusvaluutta)"
+
+#: premium.php:343
+msgid "VAT paid (total, reporting currency)"
+msgstr "Alv./VAT maksettu (yhteensä, ilmoitusvaluutta)"
+
+#: premium.php:341
+msgid "VAT paid (shipping, order currency)"
+msgstr "Alv./VAT maksettu (toimitus, valuuttajärjestys)"
+
+#: premium.php:340
+msgid "VAT paid (items, order currency)"
+msgstr "Alv./VAT maksettu (tuotteet, valuuttajärjestys)"
+
+#: premium.php:339
+msgid "VAT paid (total, order currency)"
+msgstr "Alv./VAT maksettu (yhteensä, valuuttajärjestys )"
+
+#: premium.php:326 premium.php:332 premium.php:338
+msgid "VAT is variable (%s)"
+msgstr "Alv./VAT vaihtelee (%s)"
+
+#: premium.php:323 premium.php:329 premium.php:335
+msgid "VAT paid (%s, reporting currency)"
+msgstr "Alv./VAT maksettu (%s, ilmoitusvaluutta)"
+
+#: premium.php:322 premium.php:328 premium.php:334
+msgid "VAT paid (%s, order currency)"
+msgstr "Alv./VAT maksettu (%s, valuuttajärjestys )"
+
+#: premium.php:321 premium.php:327 premium.php:333
+msgid "VAT rate (%%, %s)"
+msgstr "Alv./VAT prosentti  (%%, %s)"
+
+#: premium.php:320
+msgid "Currency conversion rate"
+msgstr "Muunnoksen valuuttakurssi"
+
+#: premium.php:319
+msgid "Sales total (reporting currency)"
+msgstr "Myynti yhteensä (ilmoitusvaluutta)"
+
+#: premium.php:318
+msgid "Sales total (order currency)"
+msgstr "Myynti yhteensä (valuuttajärjestys)"
+
+#: premium.php:317
+msgid "Shipping country (ISO-3166-1)"
+msgstr "Toimitusmaa (ISO-3166-1)"
+
+#: premium.php:315
+msgid "Billing country (ISO-3166-1)"
+msgstr "Laskutusmaa (ISO-3166-1)"
+
+#: premium.php:313
+msgid "Reporting currency symbol"
+msgstr "Ilmoitusvaluutan merkki"
+
+#: premium.php:312
+msgid "Reporting currency"
+msgstr "Ilmoitusvaluutta"
+
+#: premium.php:311
+msgid "Order currency symbol"
+msgstr "Tilausvaluutan merkki"
+
+#: premium.php:310
+msgid "Order currency"
+msgstr "Tilauksen valuutta"
+
+#: premium.php:308
+msgid "Order status"
+msgstr "Tilauksen tila"
+
+#: premium.php:307
+msgid "Date (GMT)"
+msgstr "Päiväys (GMT)"
+
+#: premium.php:306
+msgid "Date (local)"
+msgstr "Päiväys (paikallinen)"
+
+#: premium.php:305
+msgid "Order Number"
+msgstr "Tilausnumero"
+
+#: premium.php:304
+msgid "Order ID"
+msgstr "Tilauksen tunnus/ID"
+
+#: bootstrap.php:66
+msgid "WooCommerce 2.3+ built-in geo-location"
+msgstr "WooCommerce 2.3+ paikannus"
+
+#: control-centre.php:647
+msgid "Geolocate address"
+msgstr "Paikanna osoite"
+
+#: control-centre.php:640
+msgid "This option determines the customers default address (before they input their details)."
+msgstr "Tämä valinta asettaa asiakkaan oletusosoitteen (ennen kuin hän kirjoittaa osoitteen)."
+
+#: vat-number.php:373 control-centre.php:1044
+msgid "N.B. The WooCommerce EU VAT Compliance plugin causes geo-location to identify the default address, regardless of whether you also activate the geo-location built into WooCommerce (2.3+) here. We recommend choosing \"Shop Base Address\" here (though, choosing \"Geolocate address\" should be harmless, as both geo-locations should have the same result)."
+msgstr "Huom.: Tämä WooCommerce EU VAT Compliance -lisäosa paikantaa automaattisesti oletusosoitteen, riippumatta siitä onko WooCommerce 2.3 ja uudemman paikannustoiminto käytössä vai ei. Suositus: valitse tässä \"Kaupan osoite\" (vaikka  \"Paikanna osoite\" valinta pitäisi olla harmiton koska kumpikin paikannus tuottaa saman lopputuloksen)."
+
+#: widgets.php:66
+msgid "Include menu option and separate checkbox for the customer to show prices with no VAT."
+msgstr "Lisää valikkoon valinta- sekä erillinen valintaruutu jotta asiakas saa nähdä hinnat ilman arvonlisäveroa."
+
+#: widgets.php:64
+msgid "Include menu option for the customer to show prices with no VAT."
+msgstr "Lisää valikkoon mahdollisuus, että asiakas näkee hinnat ilman arvonlisäveroa."
+
+#: widgets.php:62
+msgid "Do not include a menu option for the customer to show prices with no VAT."
+msgstr "Poista valikosta mahdollisuus, että asiakas näkee hinnat ilman arvonlisäveroa."
+
+#: record-order-country.php:287
+msgid "(Traditional VAT)"
+msgstr "(Perinteinen alv.)"
+
+#: control-centre.php:691
+msgid "Use <code>{country_with_brackets}</code> to show the country only if the item had per-country varying VAT, and to show brackets around the country."
+msgstr "Käytä <code>{country_with_brackets}</code> koodia silloin, kun tuote verotetaan maakohtaisesti ja silloin maa näytetään sulkeissa."
+
+#: bootstrap.php:707
+msgid "Select all tax classes which are used in your store for products sold under EU Digital VAT regulations"
+msgstr "Valitse kaikki veroluokat, jotka koskevat kaupassa myytäviä tuotteita joita koskee EU:n digitaalisia tuotteita koskevat alv. säännökset."
+
+#: bootstrap.php:698
+msgid "Phrase matches used to identify VAT"
+msgstr "Merkkijonot, joilla tunnistetaan EU arvonlisävero"
+
+#: bootstrap.php:691
+msgid "Check-out will be forbidden if the cart contains any goods from the relevant tax classes indicated below, and if the customer's VAT country is part of the EU."
+msgstr "Kassalle pääsy estetään, jos ostoskorissa on jokin tuote joka kuuluu johonkin alla lueteltuun alv. veroluokkaan ja jos asiakkaan verotusmaa kuuluu EU:hun."
+
+#: bootstrap.php:691
+msgid "This feature is intended only for sellers who wish to avoid issues from EU variable VAT regulations entirely, by not selling any qualifying goods to EU customers (even ones who are potentially VAT exempt)."
+msgstr "Tämä asetus on vain niille kaupoille, jotka haluavat välttää kokonaan EU arvonlisäverotuksen säännökset. Kauppa ei myy arvonlisäverollisia tuotteita edes niille asiakkaille, jotka mahdollisesti voisivat ostaa tuotteet verottomana."
+
+#: bootstrap.php:690
+msgid "If this option is selected, then <strong>all</strong> orders by EU customers (whether consumer or business) which contain goods subject to variable EU VAT (whether the customer is exempt or not) will be forbidden."
+msgstr "Kun tämä valitaan, niin silloin estetään <strong>kaikki</strong> EU asiakkaat (sekä kuluttaja- että yritysasiakkaat) joiden tilaus sisältää EU arvonlisäverotettavia tuotteita. Koskee myös asiakkaita, joilla olisi oikeus ostaa ilman arvonlisäveroa. "
+
+#: bootstrap.php:689
+msgid "Forbid EU VAT checkout"
+msgstr "Estä EU asiakkaat kassalla"
+
+#: bootstrap.php:215
+msgid "Products which are not in one of these tax classes will be excluded from per-country VAT calculations recorded by this plugin (though they may still have traditional EU VAT charged if you have configured them to do so - i.e., the purpose of this setting is to allow you to have a shop selling mixed goods)."
+msgstr "Tämä lisäosa ei tee EU:n maakohtaista arvonlisäverotusta niille tuotteille, jotka ovat muissa veroluokissa kuin alla valituissa. Mutta tuotteisiin voidaan silti soveltaa perinteistä EU arvonlisäverotusta jos niin on asetettu. Tämän asetuksen tarkoitus on, että kaupassa voidaan myydä erilaisia tuotteita. "
+
+#: bootstrap.php:215
+msgid "To create additional tax classes, go to the WooCommerce tax settings."
+msgstr "Lisää veroluokkia voi tehdä WooCommercen Asetukset/ Verot välilehdellä."
+
+#: bootstrap.php:215
+msgid "Indicate all the WooCommerce tax classes for which variable-by-country EU VAT is charged."
+msgstr "Valitse kaikki ne WooCommerce veroluokat, joita koskee EU:n [ostajan maakohtainen verotus] arvonlisäverosäännökset."
+
+#: bootstrap.php:212 bootstrap.php:706
+msgid "Relevant tax classes"
+msgstr "Koskee veroluokkia"
+
+#: bootstrap.php:155
+msgid "This order cannot be processed. Due to the high costs of complying with EU VAT laws, we do not sell items liable to EU VAT to EU customers."
+msgstr "Tilausta ei voi käsitellä. EU:n alv./VAT säännösten noudattaminen on niin kallista, että emme tällä hetkellä myy EU asiakkaille tuotteita, jotka kuuluvat veron piiriin."
+
+#: bootstrap.php:151
+msgid "Depending on your country, it may not be possible to purchase all the items in this cart. This is because this store does not sell items liable to EU VAT to EU customers (due to the high costs of complying with EU VAT laws)."
+msgstr "Ei ehkä ole mahdollista ostaa kaikkia ostoskorissa olevia tuotteita tiettyihin maihin. Kauppa ei myy EU asiakkaille tuotteita, jotka kuuluvat EU alv./VAT veron piiriin (koska EU:n alv./VAT säännösten noudattaminen on liian kallista)."
+
+#: rate-providers/russiacb.php:29
+msgid "Official exchange rates from the Bank of Russia."
+msgstr "Viralliset valuuttakurssit Venäjän keskuspankilta."
+
+#: rate-providers/russiacb.php:27
+msgid "The Central Bank of the Russian Federation"
+msgstr "Venäjän liittovaltion keskuspankki"
+
+#: control-centre.php:770
+msgid "Official EU documentation on current VAT rates."
+msgstr "Voimassa olevat veroprosentit, EU virallinen asiakirja"
+
+#: readiness-tests.php:340
+msgid "WooCommerce subscriptions"
+msgstr "WooCommerce tilaukset"
+
+#: readiness-tests.php:340 readiness-tests.php:348
+msgid "The %s plugin is active, but support for subscription orders is not part of the free version of the EU VAT Compliance plugin. New orders created via subscriptions will not have VAT compliance information attached."
+msgstr "%s lisäosa on käytössä, mutta tuki toistuville tilauksille (kuten jäsenmaksu) ei kuulu maksuttoman EU VAT Compliance -lisäosan toimintoihin. Tietoja EU:n alv. säännösten noudattamista ei liitetä tilauksiin, jotka tehdään toistuvina tilauksina."
+
+#: readiness-tests.php:32
+msgid "Support for the WooCommerce Subscriptions extension"
+msgstr "Tuki WooCommerce Subscriptions -lisäosalle"
+
+#: vat-number.php:729
+msgid "The number entered is being checked..."
+msgstr "Annettua numeroa tarkastetaan..."
+
+#: vat-number.php:657
+msgid "The validity of the number entered could not be ascertained."
+msgstr "Numeron kelvollisuutta ei voitu vahvistaa."
+
+#: vat-number.php:653
+msgid "The number entered is not long enough to be valid for the chosen country."
+msgstr "Annettu numero on liian lyhyt ollakseen kelvollinen tälle maalle."
+
+#: vat-number.php:646
+msgid "The number entered was not successfully validated for the chosen country."
+msgstr "Annettua numeroa ei vahvistettu kyseiselle maalle."
+
+#: vat-number.php:644
+msgid "The number entered was successfully validated."
+msgstr "Annettu numero on kelvollinen ja se vahvistettiin."
+
+#: readiness-tests.php:326
+msgid "If this fails, then check (with your web hosting company) the network connectivity from your webserver."
+msgstr "Jos tämä ei onnistu, tarkasta (palvelimen ylläpitäjältä) palvelimen verkkoyhteys."
+
+#: readiness-tests.php:325
+msgid "Testing ability to fetch current VAT rates from the network."
+msgstr "Testataan voidaanko verkosta noutaa uudet alv. veroprosentit."
+
+#: readiness-tests.php:257
+msgid "These countries have no tax rate set in any tax rate table:"
+msgstr "Näiltä mailta puuttuu veroprosentit kaikista verotaulukoista:"
+
+#: readiness-tests.php:245
+msgid "No tax rates at all were found in your WooCommerce tax tables. Have you set any up yet?"
+msgstr "Yhtään veroprosenttia ei löytynyt WooCommercen vero taulukoista. Oletko jo asettanut ne?"
+
+#: readiness-tests.php:240
+msgid "All countries had at least one tax table in which a current VAT rate entry was found."
+msgstr "Kaikkien maiden kohdalla oli vähintään yksi verotaulukko josta löytyi voimassa oleva alv. vero."
+
+#: readiness-tests.php:230
+msgid "The following countries have tax rates set in a tax table, that were not found as any current VAT rate:"
+msgstr "Seuraaville maille on asetettu veroprosentit verotaulukossa, mutta niitä ei löytynyt tämänhetkisistä alv. tiedoista:"
+
+#: readiness-tests.php:175
+msgid "Could not get any VAT rate information."
+msgstr "Tietoja alv. veroprosenteista ei ollut saatavilla."
+
+#: readiness-tests.php:23
+msgid "VAT rates are up-to-date"
+msgstr "Alv. tiedot ovat ajan tasalla"
+
+#: readiness-tests.php:22
+msgid "Current rates can be fetched from network"
+msgstr "Tämänhetkiset veroprosentit voidaan noutaa verkosta"
+
+#: readiness-tests.php:11
+msgid "Uncertain"
+msgstr "Epävarma"
+
+#: record-order-country.php:373
+msgid "Currency conversion source:"
+msgstr "Valuuttamuunnoksen lähde:"
+
+#: control-centre.php:691
+msgid "Define text to show after your product prices. This could be, for example, \"inc. Vat\" to explain your pricing. You can also have prices substituted here using one of the following: <code>{price_including_tax}, {price_excluding_tax}</code>. Content wrapped in-between <code>{iftax}</code> and <code>{/iftax}</code> will display only if there was tax; within that, <code>{country}</code> will be replaced by the name of the country used to calculate tax."
+msgstr "Hintojen perään lisättävä teksti. Se voi olla, esim. \"sis. alv.\" joka selittää hinnan. Hinnat voi tässä valita esitettäväksi koodien avulla, esim. <code>{price_including_tax}, {price_excluding_tax}</code>. Jos tiedot ympäröidään <code>{iftax}</code> ja <code>{/iftax}</code> koodilla, niin tiedot näytetään vain jos vero on asetettu. Noiden koodien sisällä <code>{country}</code>korvataan verotusmaan nimellä."
+
+#: rates.php:221
+msgid "Use rates:"
+msgstr "Käytä veroprosentteja:"
+
+#: rates.php:61
+msgid "Add / Update EU VAT Rates"
+msgstr "Lisää/Päivitä EU alv. vero%"
+
+#: rates.php:32
+msgid "Reduced Rate"
+msgstr "Alennettu veroprosentti"
+
+#: bootstrap.php:168 rates.php:31
+msgid "Standard Rate"
+msgstr "Yleinen verokanta (vero%)"
+
+#: readiness-tests.php:332
+msgid "Taxes need to be enabled in the WooCommerce tax settings."
+msgstr "Verot on otettava käyttöön WooCommercen Asetukset/ Verot välilehdellä."
+
+#: readiness-tests.php:153
+msgid "They cannot be based upon the shop base address."
+msgstr "Veroja ei saa laskea kaupan sijainnin mukaan (paitsi kun myydään kaupan sijaintimaahan)."
+
+#: readiness-tests.php:131
+msgid "You have no currently-valid coupons which use the \"apply coupon after tax\" option (which leads to non-compliant VAT invoices)"
+msgstr "Mikään voimassa oleva kuponki ei käytä \"laske kupongin alennus verojen jälkeen\" -asetusta (jonka takia laskut eivät noudattaisi EU:n alv. säännöksiä):"
+
+#: readiness-tests.php:129
+msgid "The following currently-valid coupons use the \"apply coupon after tax\" option (which leads to non-compliant VAT invoices): "
+msgstr "Seuraavat vielä voimassa olevat kupongit käyttävät \"laske kupongin alennus verojen jälkeen\" -asetusta (jonka takia laskut eivät noudata EU:n alv. säännöksiä):"
+
+#: readiness-tests.php:80
+msgid "WooCommerce 2.3 removed the problematic \"apply coupon after tax\" option."
+msgstr "WooCommerce 2.3 versiossa poistettiin ongelmia aiheuttanut \"laske kupongin alennus verojen jälkeen\"."
+
+#: readiness-tests.php:21
+msgid "Store has tax enabled"
+msgstr "Verot on kaupassa otettu käyttöön"
+
+#: readiness-tests.php:20
+msgid "Coupons apply before tax"
+msgstr "Kuponkeja sovelletaan ennen veroja"
+
+#: readiness-tests.php:18
+msgid "WooCommerce version"
+msgstr "WooCommerce versio"
+
+#: rate-providers/danishnb.php:29
+msgid "Official exchange rates from the Danish National Bank."
+msgstr "Viralliset valuuttakurssit Tanskan kansallispankilta (Danish National Bank)."
+
+#: rate-providers/danishnb.php:27
+msgid "Danish National Bank"
+msgstr "Tanskan kansallispankki (Danish National Bank)"
+
+#: readiness-tests.php:141
+msgid "Your WooCommerce version (%s) is lower than %s - as a result, all features are supported, except for the ability to allow the customer to see exact taxes for their location before the cart or checkout."
+msgstr "Käytössä oleva WooCommercen versio (%s) on vanhempi kuin %s. Sen seurauksena kaikki tämän lisäosan toiminnot toimivat, poislukien asiakkaan mahdollisuus nähdä oikea verojen määrä ennen ostoskoria ja kassaa."
+
+#: widgets.php:60
+msgid "Explanatory text (HTML accepted):"
+msgstr "Selittävä teksti (HTML hyväksytään):"
+
+#: widgets.php:58
+msgid "Title:"
+msgstr "Otsikko:"
+
+#: widgets.php:54
+msgid "Due to limitations in earlier versions, this widget requires WooCommerce %s or later, and will not work on your version (%s)."
+msgstr "Aiemmissa WooCommerce versioissa oli puutteita: tämä vimpain tarvitsee WooCommerce %s tai uudemman. Se ei toimi tässä (%s) versiossa."
+
+#: widgets.php:24
+msgid "WooCommerce Tax Country Chooser"
+msgstr "WooCommerce verotusvaltion valitsin"
+
+#: widgets.php:22
+msgid "Allow the visitor to set their taxation country (to show correct taxes)"
+msgstr "Asiakas saa asettaa valtion johon vero maksetaan (jotta vero näkyy oikein) "
+
+#: preselect-country.php:203
+msgid "Change"
+msgstr "Vaihda"
+
+#: preselect-country.php:187 preselect-country.php:200
+msgid "Show prices without VAT"
+msgstr "Hinnat näytetään ilman arvonlisäveroa"
+
+#: control-centre.php:981
+msgid "Futher information"
+msgstr "Lisätietoja"
+
+#: control-centre.php:980
+msgid "Result"
+msgstr "Tulos"
+
+#: control-centre.php:979
+msgid "Test"
+msgstr "Testaus"
+
+#: control-centre.php:728
+msgid "Many settings below can also be found in other parts of your WordPress dashboard; they are brought together here also for convenience."
+msgstr "Monet alla näkyvät asetukset ovat myös toisaalla WordPress hallintapaneelissa. Ne on koottu tähän käyttömukavuuden vuoksi."
+
+#: readiness-tests.php:150 readiness-tests.php:153
+msgid "Tax calculations must be based on either the customer billing or shipping address."
+msgstr "Verot on laskettava joko asiakkaan laskutus- tai toimitusosoitteen mukaan."
+
+#: readiness-tests.php:139
+msgid "Your WooCommerce version (%s) is high enough to support all features of this plugin."
+msgstr "Käytössä oleva WooCommercen versio (%s) on riittävän uusi, jotta se tukee kaikkia tämän lisäosan toimintoja."
+
+#: readiness-tests.php:19
+msgid "Tax based upon"
+msgstr "Vero perustuu"
+
+#: readiness-tests.php:9
+msgid "Passed"
+msgstr "Hyväksytty"
+
+#: vat-number.php:1158
+msgid "You must certify your country of residence in order to complete your order."
+msgstr "Asuinpaikka on vahvistettava, jotta tilaus saadaan valmiiksi."
+
+#: vat-number.php:1131
+msgid "This store requires all EU orders to be accompanied by a valid EU VAT number"
+msgstr ""
+
+#: vat-number.php:558
+msgid "For the correct calculation of VAT, please confirm your country of residence:"
+msgstr "Vahvista asuinmaasi jotta arvonlisävero voidaan laskea oikein:"
+
+#: vat-number.php:517
+msgid "This shop does not allow the entry of EU VAT numbers for VAT exemption."
+msgstr "Kauppa ei salli EU alv./VAT tunnuksen kirjoittamista (alv. verovähennystä varten)."
+
+#: vat-number.php:198
+msgid "Require: EU customers without a valid EU VAT number will not be permitted to check out on any order."
+msgstr ""
+
+#: vat-number.php:197
+msgid "Never: VAT will always be charged whenever VAT-able items are present."
+msgstr "Ei koskaan: alv. veloitetaan aina kun tilauksessa on alv. verollisia tuotteita."
+
+#: vat-number.php:196
+msgid "Permit: customers with valid EU VAT numbers can enter them, and become VAT-exempt."
+msgstr "Salli: asiakkaat joilla on kelvollinen alv./VAT tunnus voivat sen kirjoittaa ja saavat verovähennyksen."
+
+#: vat-number.php:192
+msgid "N.B. Some of the options further down the page are irrelevant, if you choose \"Never\" here."
+msgstr "Huom.: jotkut alla olevat valinnat ovat merkityksettömiä jos valitset \"Ei koskaan\" tässä."
+
+#: vat-number.php:184
+msgid "Text to prepend to the footer of your PDF invoice for transactions with accepted VAT numbers (for supported PDF invoicing plugins). If you include {vat_number}, then it will be replaced with the VAT number."
+msgstr ""
+
+#: bootstrap.php:726
+msgid "Text to prepend to the footer of your PDF invoice for transactions with VAT paid and non-zero (for supported PDF invoicing plugins)"
+msgstr "Teksti joka liitetään PDF laskun alatekstin alkuun. Tekstissä näkyy maksettu alv (käytetään yhteensopivissa PDF laskutus lisäosissa)."
+
+#: rate-providers/ecb.php:29
+msgid "Official exchange rates from the European Central Bank (ECB)."
+msgstr "Viralliset valuuttakurssit Euroopan keskuspankilta (EKP, ECB)."
+
+#: rate-providers/ecb.php:27
+msgid "European Central Bank"
+msgstr "Euroopan keskuspankki (EKP, ECB)"
+
+#: rate-providers/hmrc-uk.php:30
+msgid "Official exchange rates from HM Revenue & Customs (UK)."
+msgstr "Viralliset valuuttakurssit 'Englannista' (UK, HM Revenue & Customs )."
+
+#: rate-providers/hmrc-uk.php:28
+msgid "HM Revenue & Customs (UK)"
+msgstr "HM Revenue & Customs (UK, Yhdistynyt kuningaskunta, 'Englanti')"
+
+#: rate-providers/base-xml.php:43
+msgid "Using this rates provider requires no configuration. "
+msgstr "Lisäasetuksia ei tarvita, kun käytetään kursseja tästä lähteestä."
+
+#: record-order-country.php:426
+msgid "Source:"
+msgstr "Lähde:"
+
+#: record-order-country.php:425
+msgid "IP Country:"
+msgstr "IP maa:"
+
+#: record-order-country.php:415
+msgid "Country used to calculate tax:"
+msgstr "Verotuksessa käytetty maata/valtiota: "
+
+#: record-order-country.php:407
+msgid "Raw information:"
+msgstr "Käsittelemätön tieto:"
+
+#: record-order-country.php:385
+msgid "VAT paid:"
+msgstr "Alv. maksettu"
+
+#: record-order-country.php:350
+msgid "Validated VAT number: %s"
+msgstr "Vahvistettu ALV-numero: %s"
+
+#: record-order-country.php:326
+msgid "All VAT charges"
+msgstr "Kaikki alv. maksut"
+
+#: record-order-country.php:313 record-order-country.php:335
+msgid "Total"
+msgstr "Yhteensä"
+
+#: record-order-country.php:301 record-order-country.php:328
+msgid "Shipping"
+msgstr "Toimitus"
+
+#: record-order-country.php:294 record-order-country.php:327
+msgid "Items"
+msgstr "Tuotteet"
+
+#: record-order-country.php:153
+msgid "The following information is based upon looking up the customer's IP address now."
+msgstr "Seuravat tiedot perustuvat asiakkaan IP numerolla tehtyyn paikannukseen."
+
+#: record-order-country.php:149
+msgid "No further information recorded (the EU VAT Compliance plugin was not active when this order was made)."
+msgstr "Muita tietoja ei ole tallennettu (EU VAT Compliance -lisäosa ei ollut käytössä kun tilaus on tehty)."
+
+#: record-order-country.php:29
+msgid "EU VAT compliance information"
+msgstr "Tiedot EU arvonlisäveron noudattamisesta"
+
+#: bootstrap.php:68
+msgid "MaxMind GeoIP database"
+msgstr "MaxMind GeoIP tietokanta"
+
+#: bootstrap.php:67
+msgid "MaxMind GeoIP database was not installed"
+msgstr "MaxMind GeoIP -tietokantaa ei asennettu"
+
+#: bootstrap.php:65
+msgid "CloudFlare Geo-Location"
+msgstr "CloudFlare paikannus"
+
+#: control-centre.php:1045
+msgid "Testing..."
+msgstr "Testaus..."
+
+#: control-centre.php:1043
+msgid "N.B. The final country used may be modified according to your EU VAT settings."
+msgstr "Huom.: maatietoa voidaan muuttaa. Muuttamisen tapa on määritetty EU alv. asetuksissa."
+
+#: control-centre.php:963
+msgid "N.B. It is not yet the 1st of January 2015; so, you may not want to act on all the items mentioned below yet."
+msgstr "Huom.: Ei ole vielä 1.1.2015 joten ei ole tarvetta ottaa käyttöön kaikkia asioita."
+
+#: control-centre.php:959
+msgid "N.B. Items listed below are listed as suggestions only, and it is not claimed that all apply to every situation. Items listed do not constitute legal or financial advice. For all decisions on which settings are right for you in your location and setup, final responsibility is yours."
+msgstr "Huom.: Alla luetellut asiat ovat vain suosituksia, eikä esitetä niiden sopivuutta kaikkiin tilanteisiin. Esitetyt asiat eivät ole oikeudellisia- tai taloudellisia ohjeita. Käyttäjällä on vastuu asetuksista, jotka ovat kussakin tapauksessa tarpeellisia."
+
+#: control-centre.php:955
+msgid "EU VAT Compliance Readiness"
+msgstr "Valmius EU arvoinlisäverosääntöjen noudattamiseen"
+
+#: control-centre.php:948 control-centre.php:1046
+msgid "Test Provider"
+msgstr "Testaa lähde"
+
+#: control-centre.php:939
+msgid "Follow this link for more information."
+msgstr "Tästä linkistä lisätietoja."
+
+#: control-centre.php:937
+msgid "Configure exchange rate provider"
+msgstr "Tee asetukset valuuttakurssien lähteelle"
+
+#: control-centre.php:920
+msgid "N.B. If you have a need for a specific provider, then please let us know."
+msgstr "Huom.: jos tarvitset käyttää muuta lähdettä, ota yhteyttä."
+
+#: control-centre.php:918
+msgid "If using a currency other than your base currency, then you must configure an exchange rate provider."
+msgstr "Jos käytetään perusvaluutasta poikkeavaa valuuttaa, silloin on tehtävä asetuksia valuuttakurssien lähteeseen."
+
+#: control-centre.php:918
+msgid "Set the currency that you have to use when making VAT reports. If this is not the same as your base currency (%s), then when orders are placed, the exchange rate will be recorded as part of the order information, allowing accurate VAT reports to be made."
+msgstr "Tässä asetetaan valuutta, jolla on laadittava arvonlisäveroilmoitukset. Jos tämä poikkeaa perusvaluutasta (%s), niin [tilaus hetkellä] vaihtokurssi tallennetaan tilauksen tietoihin jotta tarkat arvonlisälaskelmat voidaan tehdä."
+
+#: control-centre.php:898
+msgid "Exchange rate provider"
+msgstr "Valuuttakurssien lähde"
+
+#: control-centre.php:887
+msgid "When an order is made, exchange rate information will be added to the order, allowing all amounts to be converted into the currency chosen here. This is necessary if orders may be made in a different currency than the currency you are required to report VAT in."
+msgstr "Kun tilaus on tehty, tieto valuuttakurssista lisätään tilauksen tietoihin. Näin kaikki summat voidaan muuttaa täällä valittuun valuuttaan. Tämä on välttämätöntä, jos tilaus on tehty muulla valuutalla kuin sillä, jolla arvonlisäveroilmoitukset joudutaan tekemään."
+
+#: control-centre.php:886
+msgid "Currency"
+msgstr "Valuutta"
+
+#: control-centre.php:1048 control-centre.php:1095 control-centre.php:1098
+msgid "Response:"
+msgstr "Vastaus:"
+
+#: control-centre.php:1092
+msgid "Settings Saved."
+msgstr "Asetukset tallennettu."
+
+#: control-centre.php:1056
+msgid "Saving..."
+msgstr "Tallennetaaan..."
+
+#: control-centre.php:798
+msgid "Save Settings"
+msgstr "Tallenna asetukset"
+
+#: control-centre.php:775
+msgid "Reduced-rate tax table"
+msgstr "Alennetun verokannan taulukko"
+
+#: control-centre.php:773 control-centre.php:775
+msgid "Follow this link."
+msgstr "Tästä linkistä asetuksiin."
+
+#: control-centre.php:773
+msgid "Standard-rate tax table"
+msgstr "Yleisen verokannan taulukko"
+
+#: control-centre.php:766
+msgid "Tax tables (set up tax rates for each country)"
+msgstr "Verotaulukot (aseta verot jokaiselle valtiolle)"
+
+#: control-centre.php:758
+msgid "VAT reporting currency"
+msgstr "Alv. raporttien valuutta"
+
+#: control-centre.php:713
+msgid "Itemized"
+msgstr "Eriteltynä"
+
+#: control-centre.php:712
+msgid "As a single total"
+msgstr "Verot yhteenlaskettuna"
+
+#: control-centre.php:707
+msgid "Display tax totals:"
+msgstr "Verosummien esitystapa:"
+
+#: control-centre.php:695
+msgid "Display prices during cart/checkout:"
+msgstr "Hintojen esitystapa ostoskorissa/kassalla:"
+
+#: control-centre.php:686
+msgid "Price display suffix:"
+msgstr "Loppuliite hintoihin:"
+
+#: control-centre.php:681 control-centre.php:701
+msgid "Excluding tax"
+msgstr "Ei sisällä veroa"
+
+#: control-centre.php:680 control-centre.php:700
+msgid "Including tax"
+msgstr "Sisältää veron"
+
+#: control-centre.php:675
+msgid "Display prices in the shop:"
+msgstr "Hinnat näytetään kaupassa:"
+
+#: control-centre.php:645 control-centre.php:658
+msgid "No address"
+msgstr "Ei osoitetta"
+
+#: control-centre.php:654
+msgid "This option determines the customers default address (before they input their own)."
+msgstr "Tämä valinta asettaa asiakkaan oletusosoitteen (ennen kuin hän kirjoittaa osoitteen)."
+
+#: control-centre.php:638 control-centre.php:652
+msgid "Default Customer Address:"
+msgstr "Asiakkaan oletusosoite:"
+
+#: control-centre.php:630 control-centre.php:646 control-centre.php:659
+msgid "Shop base address"
+msgstr "Kaupan osoite"
+
+#: control-centre.php:629
+msgid "Customer billing address"
+msgstr "Asiakkaan laskutusosoite"
+
+#: control-centre.php:628
+msgid "Customer shipping address"
+msgstr "Asiakkaan toimitusosoite"
+
+#: control-centre.php:624
+msgid "This option determines which address is used to calculate tax."
+msgstr "Tämä valinta määrää minkä osoitteen mukaan vero lasketaan."
+
+#: control-centre.php:622
+msgid "Calculate Tax Based On:"
+msgstr "Veron laskentaperuste:"
+
+#: control-centre.php:617
+msgid "No, I will enter prices exclusive of tax"
+msgstr "Hinnat ilmoitettu/ syötetään verottomina (ei sisällä veroa)"
+
+#: control-centre.php:616
+msgid "Yes, I will enter prices inclusive of tax"
+msgstr "Hinnat ilmoitettu/ syötetään verollisina (sisältää veron)"
+
+#: control-centre.php:614
+msgid "This option is important as it will affect how you input prices. Changing it will not update existing products."
+msgstr "Tässä asetetaan hintojen syöttämisen tapa. Kun valinta vaihdetaan, [aiemmin syötetyt] hinnat eivät muutu."
+
+#: control-centre.php:610
+msgid "Prices Entered With Tax"
+msgstr "Hinnat kirjoitettu verollisina"
+
+#: control-centre.php:603
+msgid "Enable taxes and tax calculations"
+msgstr "Ota käyttöön verot ja verojen laskeminen"
+
+#: control-centre.php:602
+msgid "Enable Taxes"
+msgstr "Verotus"
+
+#: control-centre.php:599
+msgid "Other WooCommerce tax options potentially relevant for EU VAT compliance"
+msgstr "Muita WooCommercen veroasetuksia jotka vaikuttavat EU VAT Compliance -lisäosan toimintaan."
+
+#: control-centre.php:571
+msgid "WooCommerce VAT settings (new settings from the EU VAT compliance plugin)"
+msgstr "WooCommerce alv. asetukset ( EU VAT Compliance -lisäosan uudet asetukset)"
+
+#: control-centre.php:328
+msgid "Version"
+msgstr "Versio"
+
+#: control-centre.php:326
+msgid "Lead developer's homepage"
+msgstr "Kehittäjän kotisivu"
+
+#: control-centre.php:324
+msgid "More plugins"
+msgstr "Muita lisäosia"
+
+#: control-centre.php:320
+msgid "Support"
+msgstr "Tuki"
+
+#: control-centre.php:319
+msgid "for WooCommerce"
+msgstr "WooCommercelle"
+
+#: control-centre.php:314
+msgid "(premium)"
+msgstr "(lisämaksullinen)"
+
+#: control-centre.php:299 control-centre.php:322
+msgid "Premium"
+msgstr "Maksullinen laajennus"
+
+#: control-centre.php:298
+msgid "VAT Reports"
+msgstr "Alv. raportit"
+
+#: control-centre.php:297
+msgid "Readiness Report"
+msgstr "Valmius raportti "
+
+#: control-centre.php:296 control-centre.php:726
+msgid "Settings"
+msgstr "Asetukset"
+
+#: control-centre.php:285 control-centre.php:286 control-centre.php:319
+msgid "EU VAT Compliance"
+msgstr "EU alv. säännösten noudattaminen"
+
+#: control-centre.php:154
+msgid "Success: %s currency units in your shop base currency (%s) are worth %s currency units in your chosen VAT reporting currency (%s)"
+msgstr "Onnistui: %s valuuttayksikköä kaupan perusvaluutassa (%s) on arvoltaan %s  valuuttayksikköä valitsemassasi (%s) valuutassa jolla laadit arvonlisäveroilmoitukset."
+
+#: control-centre.php:150
+msgid "Failed: The currency conversion failed. Please check the settings, that the chosen provider provides exchange rates for your chosen currencies, and the outgoing network connectivity from your webserver."
+msgstr "Epäonnistui: valuutan muunnos ei onnistunut. Tarkasta asetuksista, että valitsemasi valuuttakurssien lähde tarjoaa kurssin valituille valuutoille ja varmista, että verkkoliikenne palvelimelta ulospäin toimii."
+
+#: rates.php:347
+msgid "Isle of Man"
+msgstr "Man saari (Isle of Man)"
+
+#: rates.php:204
+msgid "You can configure this list in the tax options."
+msgstr "Tätä voi muutta Verot asetuksissa."
+
+#: rates.php:204
+msgid "Note: for any tax you enter below to be recognised as VAT for EU VAT purposes, its name will need to contain one of the following words or phrases:"
+msgstr "Huom.: Jotta alle kirjoittamsi vero tunnistetaan EU alv. veroksi, veron nimessä tulee olla jokin näistä merkkijonoista:"
+
+#: vat-number.php:1269
+msgid "You have entered an invalid VAT number (%s) for your country."
+msgstr "Kirjoittamasi alv./VAT tunnus (%s) ei kelpaa tälle valtiolle."
+
+#: vat-number.php:1184
+msgid "You cannot use a VAT number since your country (%s) is outside of the EU."
+msgstr "Alv./VAT tunnusta ei voi käyttää, koska valtio (%s) ei kuulu EU:hun."
+
+#: vat-number.php:897
+msgid "shipping country"
+msgstr "toimitusmaa"
+
+#: vat-number.php:803
+msgid "billing country"
+msgstr "laskutusmaa"
+
+#: vat-number.php:554 premium.php:316
+msgid "Shipping country"
+msgstr "Toimitusmaa"
+
+#: vat-number.php:551 premium.php:314
+msgid "Billing country"
+msgstr "Laskutusmaa"
+
+#: vat-number.php:546
+msgid "%s (detected)"
+msgstr "%s (havaittu)"
+
+#: vat-number.php:522 vat-number.php:523
+msgid "VAT Number"
+msgstr "Alv./VAT tunnus"
+
+#: vat-number.php:369
+msgid "N.B. The final country used may be modified according to your EU VAT settings, further down this page."
+msgstr "Huom.: maatietoa voidaan muuttaa. Muuttamisen tapa on määritetty EU alv. asetuksissa, ks. alla."
+
+#: vat-number.php:298 vat-number.php:334
+msgid "VAT #:"
+msgstr "Alv./VAT #:"
+
+#: vat-number.php:57
+msgid "If you are in the EU and have a valid EU VAT registration number please enter it below."
+msgstr "Kirjoita alle EU alv./VAT tunnus, jos sinulla on tunnus ja asuinpaikkasi on EU:ssa."
+
+#: vat-number.php:56 vat-number.php:121
+msgid "EU VAT Number (if any)"
+msgstr "EU alv./VAT tunnus (jos on)"
+
+#: vat-number.php:183
+msgid "Invoice footer text (B2B)"
+msgstr "Laskun alateksti (yritys myy yritykselle, B2B)"
+
+#: vat-number.php:251
+msgid "Always use the WooCommerce tax settings to indicate the country (never ask the customer)"
+msgstr "WooCommercen veroasetusta käytetään aina maan selvittämiseen (asiakkaalta ei kysytä koskaan)"
+
+#: vat-number.php:250
+msgid "Always show the customer the VAT country, even if there was no conflict"
+msgstr "Näytä aina asiakkaan alv. verotusmaa, vaikka ristiriitaa ei olisi"
+
+#: vat-number.php:249
+msgid "Require the customer to indicate the correct country when there is a conflict"
+msgstr "Vaadi asiakasta ilmoittamaan oikea maa kun tiedoissa on ristiriita."
+
+#: vat-number.php:245
+msgid "Which is the correct option for you depends upon the particular evidence your local taxman is happy with to verify the country of purchase."
+msgstr "Paikallisen veroviranomaisen edellyttämä näyttö ostomaasta määrää sen, mikä asetus on sopiva. "
+
+#: vat-number.php:245
+msgid "This option determines what will happen if the customer's apparent country (according to their IP address) conflicts with the country used to determine their taxes (i.e. shipping or billing country, depending upon the setting further up this page)."
+msgstr "Tässä asetetaan kuinka toimitaan tilanteessa, jossa asiakkaan ilmeinen maa (IP numeron perusteella) poikkeaa valtiosta jonka mukaan verot lasketaan (siis toimitus- tai laskutusmaa, riippuen asetuksesta yllä)."
+
+#: vat-number.php:244
+msgid "Resolving conflicting VAT data"
+msgstr "Ristiriitaisen alv. tiedon ratkaisu"
+
+#: vat-number.php:231
+msgid "Enable this option to store numbers which don't pass validation, rather than reject them. Tax will not be made exempt."
+msgstr "Ota tämä käyttöön, jos epäkelvot numerot tallennetaan eikä vain hylätä. Verovähennystä ei tehdä."
+
+#: vat-number.php:230
+msgid "Store non-valid numbers"
+msgstr "Tallenna epäkelvot numerot"
+
+#: vat-number.php:225
+msgid "Deduct the VAT even when the customer is in your base country and has a valid number"
+msgstr "Vähennä arvonlisävero kun alv./VAT tunnus on kelvollinen ja vaikka asiakas on on samassa maassa kuin kauppa."
+
+#: vat-number.php:224
+msgid "Deduct VAT for base country"
+msgstr "Alv. verovähennys kaupan maassa"
+
+#: vat-number.php:219
+msgid "Show the VAT field even when the customer is in your base country"
+msgstr "Näytä alv./VAT tunnuskenttä vaikka asiakas on samassa maassa kuin kauppa."
+
+#: vat-number.php:218
+msgid "Show field for base country"
+msgstr "Näytä kenttä kaupan maalle"
+
+#: vat-number.php:212
+msgid "The message that appears at checkout above the VAT Number box."
+msgstr "Viesti joka näkyy kassalla alv./VAT tunnus -kentän yllä."
+
+#: vat-number.php:211
+msgid "EU VAT Message"
+msgstr "EU alv. viesti"
+
+#: vat-number.php:206
+msgid "The title that appears at checkout above the VAT Number box."
+msgstr "Otsikko, joka näkyy kassalla alv./VAT tunnus -kentän yllä."
+
+#: vat-number.php:205
+msgid "EU VAT Title"
+msgstr "EU alv. otsikko"
+
+#: bootstrap.php:833
+msgid "Follow this link to activate it."
+msgstr "Ota käyttöön tästä linkistä."
+
+#: bootstrap.php:826
+msgid "For the WooCommerce EU VAT compliance module to be able to record the country that a customer is ordering from, the (free) GeoIP Detection plugin must be installed and activated."
+msgstr "WooCommerce EU VAT Compliance -lisäosa tarvitsee asiakkaan paikannukseen maksuttoman GeoIP Detection -lisäosan. Se on asennettava ja otettava käyttöön."
+
+#: bootstrap.php:825
+msgid "Required Plugin Not Found"
+msgstr "Tarvittavaa lisäosaa ei löydy"
+
+#: bootstrap.php:819
+msgid "Follow this link and press the Update Now button to download it"
+msgstr "Katso tästä linkistä ja lataa tietokanta painamalla Päivitä nyt -painiketta"
+
+#: bootstrap.php:818
+msgid "You have the GeoIP plugin installed, but it has not yet downloaded its database. This is needed for country detection to work."
+msgstr "GeoIP lisäosa on asennettu, mutta se ei ole vielä ladannut tarvittavaa tietokantaa. Tietokantaa tarvitaan paikannukseen."
+
+#: bootstrap.php:817
+msgid "GeoIP database not found"
+msgstr "GeoIP tietokantaa ei löydy"
+
+#: readiness-tests.php:10 bootstrap.php:663
+msgid "Failed"
+msgstr "Epäonnistui"
+
+#: bootstrap.php:662
+msgid "Refunded"
+msgstr "Hyvitetty"
+
+#: bootstrap.php:661
+msgid "Cancelled"
+msgstr "Peruttu"
+
+#: bootstrap.php:660
+msgid "Completed"
+msgstr "Valmistunut"
+
+#: bootstrap.php:659
+msgid "On Hold"
+msgstr "Jonossa"
+
+#: bootstrap.php:658
+msgid "Processing"
+msgstr "Käsittelyssä"
+
+#: bootstrap.php:657
+msgid "Pending Payment"
+msgstr "Odottaa maksua"
+
+#: bootstrap.php:639
+msgid "Premium Version"
+msgstr "Lisämaksullinen versio"
+
+#: bootstrap.php:636
+msgid "EU VAT Compliance Dashboard"
+msgstr "EU alv. hallintapaneeli"
+
+#: bootstrap.php:725
+msgid "Invoice footer text (B2C)"
+msgstr "Laskun alateksti (yritys myy kuluttajalle, B2C)"
+
+#: bootstrap.php:699
+msgid "A comma-separated (optional spaces) list of strings (phrases) used to identify taxes which are EU VAT taxes. One of these strings must be used in your tax name labels (i.e. the names used in your tax tables) if you wish the tax to be identified as EU VAT."
+msgstr "Luettelo merkkijonoista, joiden perusteella EU arvonlisäverot tunnistetaan. Erota pilkulla, välilyönnin voi lisätä. Jotakin näistä tulee käyttää verojen nimissä jotta verot tunnistetaan EU arvonlisäveroiksi."
+
+#: record-order-country.php:167
+msgid "VAT"
+msgstr "Alv."
+
+#: reports.php:1444 reports.php:1461
+msgid "Country"
+msgstr "Maa"
+
+#: reports.php:1443 reports.php:1460
+msgid "Order Status"
+msgstr "Tilauksen tila"
+
+#: reports.php:1181 reports.php:1336
+msgid "Grand Total"
+msgstr "Yhteensä"
+
+#: reports.php:647
+msgid "Downloading all orders with VAT data in CSV format is a feature of the Premium version of this plugin."
+msgstr "Lisäosan maksullinen laajennus tarjoaa mahdollisuuden siirtää/viedä kaikki tilaukset CSV-tiedostona."
+
+#: reports.php:645
+msgid "The report below indicates the taxes actually charged on orders, when they were processed: it does not take into account later alterations manually made to order data."
+msgstr "Alla olevassa raportissa esitetään tilausten käsittelyn yhteydessä veloitetut verot: siinä ei ole otettu huomioon tietoihin [myöhemmin manuaalisesti] tehtyjä muutoksia."
+
+#: reports.php:29 reports.php:82 reports.php:92
+msgid "EU VAT Report"
+msgstr "EU alv. raportti"
+
+#: premium.php:658
+msgid "all of its features are part of the premium version."
+msgstr "kaikki sen ominaisuudet ovat osa tämän lisäosan maksullista laajennusta."
+
+#: premium.php:657
+msgid "You can delete the free version of the WooCommerce EU VAT Compliance plugin"
+msgstr "Voit poistaa maksuttoman WooCommerce EU VAT Compliance -lisäosan"
+
+#: premium.php:533 premium.php:539 premium.php:545 premium.php:555
+#: premium.php:556
+msgid "No"
+msgstr "Ei"
+
+#: premium.php:533 premium.php:539 premium.php:545 premium.php:555
+#: premium.php:556
+msgid "Yes"
+msgstr "Kyllä"
+
+#: premium.php:555 premium.php:556
+msgid "n/a"
+msgstr "ei saatavilla/-tietoa"
+
+#: premium.php:554
+msgid "None supplied"
+msgstr "Ei annettu"
+
+#: vat-number.php:539 record-order-country.php:385 record-order-country.php:401
+#: record-order-country.php:403 record-order-country.php:405
+#: record-order-country.php:413 record-order-country.php:417 reports.php:1000
+#: reports.php:1107 bootstrap.php:670 premium.php:400 premium.php:412
+#: premium.php:416 premium.php:422 premium.php:426 premium.php:433
+#: premium.php:438
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: premium.php:153
+msgid "If you have the free WooCommerce PDF packing slips and invoices plugin, then this option will add the foreign currency VAT amount to your PDF invoices (for supported PDF invoicing plugins)."
+msgstr "Jos olet asentanut maksuttoman WooCommerce PDF Invoices & Packing Slips -lisäosan, niin tämä valinta lisää valuuttamääräisen alv./VAT veron määrän PDF laskuihin. "
+
+#: premium.php:152
+msgid "Add exchange amount to invoices"
+msgstr "Lisää valuuttamuunnoksen määrä laskuihin."
+
+#: premium.php:72
+msgid "EU regulations require EU customers to be shown prices inclusive of VAT. Select this option to use geo-location (based upon the visitor's IP address) to enforce this requirement."
+msgstr "EU:n määräykset edellyttävät, että EU asiakkaille näytetään hinnat joihin arvonlisävero sisältyy. Tätä vaatimusta tukee vierailijan IP-numeroon pohjautuva paikannus. Ota paikannus tästä käyttöön."
+
+#: premium.php:71
+msgid "Force VAT display on product pages for EU visitors"
+msgstr "Pakota tuotesivuilla alv. näyttäminen EU asiakkaille"

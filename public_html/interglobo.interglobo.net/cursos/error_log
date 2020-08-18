@@ -1,0 +1,25 @@
+[03-Apr-2017 16:05:06 UTC] Error Duplicate key name 'location_type_code' de la base de datos de WordPress para la consulta ALTER TABLE wp_woocommerce_tax_rate_locations ADD KEY `location_type_code` (`location_type`(40),`location_code`(90)) realizada por require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[03-Apr-2017 16:05:06 UTC] Error Duplicate key name 'location_type_code' de la base de datos de WordPress para la consulta ALTER TABLE wp_woocommerce_shipping_zone_locations ADD KEY `location_type_code` (`location_type`(40),`location_code`(90)) realizada por require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[04-Apr-2017 14:52:34 UTC] PHP Fatal error:  Class 'evo_sinevent' not found in /home/adesign/fm.artdesign.com.co/wp-content/themes/wplms/single-ajde_events-template.php on line 17
+[04-Apr-2017 14:52:42 UTC] PHP Fatal error:  Class 'evo_sinevent' not found in /home/adesign/fm.artdesign.com.co/wp-content/themes/wplms/single-ajde_events-template.php on line 17
+[04-Apr-2017 16:59:06 UTC] PHP Warning:  Illegal string offset 'custom_css' in /home/adesign/fm.artdesign.com.co/wp-content/plugins/vibe-customtypes/metaboxes/library/vibe-editor.php on line 1419
+[05-Apr-2017 15:46:55 UTC] The woocommerce_price function is deprecated since version 3.0. Replace with wc_price.
+[05-Apr-2017 15:46:55 UTC] The woocommerce_get_page_id function is deprecated since version 3.0. Replace with wc_get_page_id.
+[05-Apr-2017 16:05:36 UTC] The woocommerce_price function is deprecated since version 3.0. Replace with wc_price.
+[05-Apr-2017 16:05:36 UTC] The woocommerce_get_page_id function is deprecated since version 3.0. Replace with wc_get_page_id.
+[05-Apr-2017 16:12:37 UTC] The woocommerce_price function is deprecated since version 3.0. Replace with wc_price.
+[05-Apr-2017 16:12:37 UTC] The woocommerce_get_page_id function is deprecated since version 3.0. Replace with wc_get_page_id.
+[05-Apr-2017 16:41:58 UTC] The woocommerce_price function is deprecated since version 3.0. Replace with wc_price.
+[05-Apr-2017 16:41:58 UTC] The woocommerce_get_page_id function is deprecated since version 3.0. Replace with wc_get_page_id.
+[05-Apr-2017 16:44:58 UTC] The woocommerce_price function is deprecated since version 3.0. Replace with wc_price.
+[05-Apr-2017 16:44:58 UTC] The woocommerce_get_page_id function is deprecated since version 3.0. Replace with wc_get_page_id.
+[05-Apr-2017 16:44:59 UTC] The woocommerce_price function is deprecated since version 3.0. Replace with wc_price.
+[05-Apr-2017 16:44:59 UTC] The woocommerce_get_page_id function is deprecated since version 3.0. Replace with wc_get_page_id.
+[05-Apr-2017 16:48:01 UTC] The woocommerce_price function is deprecated since version 3.0. Replace with wc_price.
+[05-Apr-2017 16:48:01 UTC] The woocommerce_get_page_id function is deprecated since version 3.0. Replace with wc_get_page_id.
+[05-Apr-2017 16:48:02 UTC] The woocommerce_price function is deprecated since version 3.0. Replace with wc_price.
+[05-Apr-2017 16:48:02 UTC] The woocommerce_get_page_id function is deprecated since version 3.0. Replace with wc_get_page_id.
+[05-Apr-2017 17:08:49 UTC] The woocommerce_price function is deprecated since version 3.0. Replace with wc_price.
+[05-Apr-2017 17:08:49 UTC] The woocommerce_get_page_id function is deprecated since version 3.0. Replace with wc_get_page_id.
+[05-Apr-2017 17:31:25 UTC] The woocommerce_price function is deprecated since version 3.0. Replace with wc_price.
+[05-Apr-2017 17:31:25 UTC] The woocommerce_get_page_id function is deprecated since version 3.0. Replace with wc_get_page_id.

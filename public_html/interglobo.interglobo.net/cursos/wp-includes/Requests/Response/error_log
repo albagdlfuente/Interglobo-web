@@ -1,0 +1,2 @@
+[29-Aug-2018 14:46:50 Europe/Madrid] PHP Fatal error:  Class 'Requests_Utility_CaseInsensitiveDictionary' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Response/Headers.php on line 13
+[29-Aug-2018 16:21:39 Europe/Madrid] PHP Fatal error:  Class 'Requests_Utility_CaseInsensitiveDictionary' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Response/Headers.php on line 13

@@ -1,0 +1,4 @@
+[28-Aug-2018 16:21:03 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Hooker' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Hooks.php on line 15
+[28-Aug-2018 16:37:39 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Hooker' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Hooks.php on line 15
+[18-Apr-2019 19:10:51 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Hooker' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Hooks.php on line 15
+[25-Apr-2020 05:00:41 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Hooker' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Hooks.php on line 15

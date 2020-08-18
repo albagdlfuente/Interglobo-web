@@ -1,0 +1,6 @@
+[29-Aug-2018 14:48:05 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Transport/cURL.php on line 15
+[29-Aug-2018 14:48:47 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Transport/fsockopen.php on line 15
+[29-Aug-2018 16:35:19 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Transport/fsockopen.php on line 15
+[29-Aug-2018 16:36:53 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Transport/cURL.php on line 15
+[23-Apr-2020 22:06:21 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Transport/fsockopen.php on line 15
+[25-Apr-2020 17:30:40 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Transport' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Transport/cURL.php on line 15

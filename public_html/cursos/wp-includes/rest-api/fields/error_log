@@ -1,0 +1,15 @@
+[28-Aug-2018 16:33:24 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php on line 17
+[28-Aug-2018 16:34:00 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php on line 17
+[28-Aug-2018 16:34:10 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php on line 17
+[28-Aug-2018 16:34:41 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php on line 17
+[29-Aug-2018 16:09:27 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php on line 17
+[29-Aug-2018 16:10:20 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php on line 17
+[29-Aug-2018 16:10:47 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php on line 17
+[29-Aug-2018 16:11:02 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php on line 17
+[29-Aug-2018 16:11:17 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php on line 17
+[29-Aug-2018 16:11:48 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php on line 17
+[29-Aug-2018 16:12:20 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php on line 17
+[29-Aug-2018 16:12:37 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php on line 17
+[23-Apr-2020 22:23:34 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php on line 17
+[24-Apr-2020 08:27:46 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php on line 17
+[29-Apr-2020 08:48:10 Europe/Madrid] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/interglo/public_html/cursos/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php on line 17

@@ -1,0 +1,2 @@
+[29-Aug-2018 14:47:33 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Auth' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Auth/Basic.php on line 18
+[24-Apr-2020 23:07:46 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Auth' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Auth/Basic.php on line 18

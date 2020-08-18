@@ -1,0 +1,12 @@
+[28-Aug-2018 17:18:06 Europe/Madrid] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/interglo/public_html/cursos/wp-includes/SimplePie/Cache/File.php on line 52
+[28-Aug-2018 17:18:28 Europe/Madrid] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/interglo/public_html/cursos/wp-includes/SimplePie/Cache/DB.php on line 52
+[28-Aug-2018 17:19:05 Europe/Madrid] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/interglo/public_html/cursos/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[28-Aug-2018 17:19:19 Europe/Madrid] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/interglo/public_html/cursos/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[29-Aug-2018 11:57:26 Europe/Madrid] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/interglo/public_html/cursos/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[29-Aug-2018 11:57:36 Europe/Madrid] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/interglo/public_html/cursos/wp-includes/SimplePie/Cache/DB.php on line 52
+[29-Aug-2018 11:57:46 Europe/Madrid] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/interglo/public_html/cursos/wp-includes/SimplePie/Cache/File.php on line 52
+[29-Aug-2018 11:57:57 Europe/Madrid] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/interglo/public_html/cursos/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[17-Apr-2020 22:44:34 Europe/Madrid] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/interglo/public_html/cursos/wp-includes/SimplePie/Cache/File.php on line 52
+[19-Apr-2020 06:14:45 Europe/Madrid] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/interglo/public_html/cursos/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[19-Apr-2020 13:51:50 Europe/Madrid] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/interglo/public_html/cursos/wp-includes/SimplePie/Cache/DB.php on line 52
+[20-Apr-2020 12:44:55 Europe/Madrid] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/interglo/public_html/cursos/wp-includes/SimplePie/Cache/Memcache.php on line 59

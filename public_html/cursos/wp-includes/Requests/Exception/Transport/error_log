@@ -1,0 +1,4 @@
+[29-Aug-2018 14:45:28 Europe/Madrid] PHP Fatal error:  Class 'Requests_Exception_Transport' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Exception/Transport/cURL.php on line 3
+[29-Aug-2018 15:07:25 Europe/Madrid] PHP Fatal error:  Class 'Requests_Exception_Transport' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Exception/Transport/cURL.php on line 3
+[28-Apr-2020 20:00:29 Europe/Madrid] PHP Fatal error:  Class 'Requests_Exception_Transport' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Exception/Transport/cURL.php on line 3
+[29-Apr-2020 12:12:06 Europe/Madrid] PHP Fatal error:  Class 'Requests_Exception_Transport' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Exception/Transport/cURL.php on line 3

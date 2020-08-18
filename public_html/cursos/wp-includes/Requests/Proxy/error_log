@@ -1,0 +1,3 @@
+[29-Aug-2018 16:55:08 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Proxy' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Proxy/HTTP.php on line 19
+[30-Aug-2018 04:27:02 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Proxy' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Proxy/HTTP.php on line 19
+[25-Apr-2020 02:00:51 Europe/Madrid] PHP Fatal error:  Interface 'Requests_Proxy' not found in /home/interglo/public_html/cursos/wp-includes/Requests/Proxy/HTTP.php on line 19
